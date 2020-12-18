@@ -32,6 +32,7 @@ function Customerlist() {
 
     return(
         <div>
+            <h1>Customers</h1>
             <div className="ag-theme-material" style={{height:'700px', width:'90%', margin:'auto'}}>
                 <AgGridReact
                     ref={gridRef}

@@ -32,6 +32,7 @@ function Traininglist() {
 
     return(
         <div>
+            <h1>Trainings</h1>
             <div className="ag-theme-material" style={{height:'700px', width:'90%', margin:'auto'}}>
                 <AgGridReact
                     ref={gridRef}
